@@ -11,9 +11,13 @@ H: height of test image
 Pixel value at location (i,j) of the image equals the average of the pixel values at locations (i − 1, j − 1), (i − 1, j), (i − 1, j + 1),(i,j−1),(i,j),(i,j+1),(i+1,j−1),(i+1,j),(i+1,j+1) of the input image.
 
 **Input**
+
+
 ![picture alt](./images/test.jpg)
 
 **Output**
+
+
 ![picture alt](./images/average.jpg)
 
 ### **Edge Detection**
@@ -37,7 +41,7 @@ In this part, aim is to find the path of least energy.
 *Pictorial view of the computation*
 
 
-![picture alt](./images/Capture.png)
+![picture alt](./images/Capture.PNG)
 
 Algorithm:
 
