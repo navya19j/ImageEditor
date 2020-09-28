@@ -20,16 +20,24 @@ Pixel value at location (i,j) of the image equals the average of the pixel value
 The idea here is to compute some function of pixel values among neighbouring cells in horizontal and vertical directions. This function approximates how close these pixel values are relative to each other. If pixel values in a neighbourhood are similar, then this function value would be very small or 0 where as if there is a significant change in neighbourhood pixel values, then this function would have non-zero values.
 
 **Input**
+
+
 ![picture alt](./images/test.jpg)
 
 **Output**
+
+
 ![picture alt](./images/edge_1.jpg)
 
 ### **Path of least Energy**
+
+
 In this part, aim is to find the path of least energy.
 
 *Pictorial view of the computation*
-![picture alt](./images/capture.png)
+
+
+![picture alt](./images/Capture.png)
 
 Algorithm:
 
@@ -40,9 +48,13 @@ Create an array of the co-ordinates of the minimum elements in the last row. Now
 The array obtained thus contains all the co-ordinates of the image which define the path of lowest energy.
 
 **Input**
+
+
 ![picture alt](./images/test.jpg)
 
 **Output**
+
+
 ![picture alt](./images/energy_1.jpg)
 
 
